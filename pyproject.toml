@@ -1,0 +1,22 @@
+[project]
+name = "deep-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jax>=0.5.1",
+    "keras>=3.8.0",
+    "matplotlib>=3.10.1",
+    "onnx>=1.17.0",
+    "onnxruntime>=1.20.1",
+    "pandas>=2.2.3",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
